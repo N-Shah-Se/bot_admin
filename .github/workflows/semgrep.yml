@@ -2,7 +2,7 @@ name: Semgrep
 
 on:
   push:
-    branches: [ "main" ,"master"]
+    branches: [ "main" ,"master","dev"]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
